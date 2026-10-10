@@ -2,7 +2,12 @@
   "name": "foodsprint",
   "version": "1.0.0",
   "private": true,
-  "description": "A simple end-to-end food delivery app with nearest restaurant and delivery partner assignment",
-  "scripts": { "start": "node server.js", "dev": "node --watch server.js" },
-  "engines": { "node": ">=18" }
+  "description": "Simple full-stack food delivery demo with restaurant discovery, cart, coupons, orders and nearest delivery partner assignment",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
 }
